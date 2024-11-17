@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    font-family: 'Oxanium', sans-serif;
+     overflow: auto;
+    scrollbar-width: none;
+  }
+
+  html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
+
+  h2 {
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #0b0909;
+}
+
+.clip-utility {
+    clip-path: polygon(0 0, calc(100% - 0px) 0, 100% 50%, calc(100% - 10px) 100%, 0 100%);
+  }
