@@ -22,7 +22,7 @@ interface SliderSectionProps {
     setCurrentSlider: React.Dispatch<React.SetStateAction<number>>;
 }
 
-const SliderSection: React.FC<SliderSectionProps> = ({ currentSlider, setCurrentSlider }) => {
+const SliderSection: React.FC<SliderSectionProps> = ({ setCurrentSlider }) => {
     const slides: Faction[] = [
         { id: 1, title: "Faction 1", description: "A global peacekeeping for public good", logo: factionOneLogo },
         { id: 2, title: "Faction 2", description: "Join the forces of innovation and power", logo: factionOneLogo2 },
